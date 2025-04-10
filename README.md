@@ -61,17 +61,13 @@ kernel, min_rad, max_rad = 5,40,60   # for image 2
 ---
 
 ## Part 3
-We have used star algorithm for active-conour detections, and here is the results
+We have used star algorithm for active-conour detections, you draw a borderline and press space after you finish, or you can reset it by pressing R. When you close the window, the program saves the image if you wish, if no contour detected, it will report it to you.
 
-###  Snake algorithm on bicycle
+###  Snake algorithm 
 <p>
-  <img src="task3_plot_outputs/plot_snake_image2.jpeg" width="700">
+  <img src="task3_active_contour/image3_active_contour_result.png" width="700">
 </p>
 
-###  Snake algorithm on camera
-<p>
-  <img src="task3_plot_outputs/plot_snake_image3.jpeg" width="700">
-</p>
 
 ---
 
@@ -79,7 +75,7 @@ We have used star algorithm for active-conour detections, and here is the result
 I have `pairs` folder, which contains images of pairs for this assignment, and you pick an index for pair folder. The first image is from the slides and it should detect the guitar. The second pair consists of a bicycle and a camera, and it should fail. The last image is an image of a small horse from two differen angles (approximately 20 percent and 90 percent), and the algorithm manages to detect that it is same type of object.The script loads two images, detects keypoints with ORB, matches them using Lowe’s ratio test, and estimates a homography if enough good matches are found. It then projects the first image onto the second to localize the object, visualizes the result, and optionally saves the outputs.
 ###  Snake algorithm on camera
 <p>
-  <img src="task4_orb_outputs/plot_image1.jpeg_image2.jpeg.jpg" width="700">
+  <img src="task4_orb_outputs/plot_pair3.jpeg" width="700">
 </p>
 
 
