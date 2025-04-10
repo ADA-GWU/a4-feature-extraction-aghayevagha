@@ -129,11 +129,9 @@ if __name__ == "__main__":
         plt.tight_layout()
 
         if save_results:
-            base1 = os.path.basename(img1_path)
-            base2 = os.path.basename(img2_path)
-            match = f"match_{base1}_{base2}.jpg"
-            box = f"box_{base1}_{base2}.jpg"
-            plot = f"plot_{base1}_{base2}.jpg"
+            match = f"match_pair{pair_index}.jpeg"
+            box = f"box_pair{pair_index}.jpeg"
+            plot = f"plot_pair{pair_index}.jpeg"
             save_image(match_img, match)
             save_image(boxed_img, box)
             save_plot(fig, plot)
