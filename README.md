@@ -17,7 +17,9 @@ This repository contains the source code and images for Assignment 4.
 - [Part 4](#part-1)
 - [How to run](#how-to-run)
 ---
+
 For all of the functions, I have designed so that the user may only pick the index and doesn't have to worry about image naming for avoiding complexity. However, if the user wish, they can change the name of input images ( e.g. an image from local file) and output images.
+
 ---
 ## Part 1
 The first part applies 5 different edge detection algorithms, from my point of view, the best one is canny-edge detection and the worst one is Robert-edge detection system.
