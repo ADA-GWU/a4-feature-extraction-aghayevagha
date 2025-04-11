@@ -29,6 +29,7 @@ The first part applies 5 different edge detection algorithms, from my point of v
   <img src="task1_plot_outputs/plot_roberts_image5.jpeg" width="700">
 </p>
 As we see, the image is very blurry.
+
 ###  Canny-edge detection
 <p>
   <img src="task1_plot_outputs/plot_canny_image5.jpeg" width="700">
